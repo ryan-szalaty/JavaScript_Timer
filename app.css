@@ -1,0 +1,30 @@
+body {
+  margin: 10% 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg {
+  position: relative;
+}
+
+.controls {
+  position: absolute;
+  width: 35%;
+  border: none;
+  bottom: 30%;
+  left: 40%;
+}
+
+input {
+  border: none;
+  width: 50%;
+  font-size: 4.0rem;
+  display: block;
+}
+
+button {
+  display: inline-block;
+  font-size: 2.0rem;
+}

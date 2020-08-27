@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Timer.io</title>
+  <link rel = "stylesheet" href = "app.css">
+  <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+
+<body>
+
+<div class = 'svg'>
+<svg height = '400' width = '400'>
+  <circle r = '190' cx = '200' cy = '200'
+  fill = 'transparent'
+  stroke = 'black'
+  stroke-width = '15'
+  transform = 'rotate(-90 200 200)'
+  />
+  <div class = 'controls'>
+  <foreignobject class = 'node' x = '200' y = '200' width = '200' height = '200'>
+      <input value = 30 />
+      <button><i class="fas fa-play"></i></button>
+      <button><i class="fas fa-pause"></i></button>
+  </foreignobject>
+  </div>
+</svg>
+</div>
+
+
+
+<script src="timer.js"></script>
+<script src="app.js"></script>
+
+
+</body>
+</html>
